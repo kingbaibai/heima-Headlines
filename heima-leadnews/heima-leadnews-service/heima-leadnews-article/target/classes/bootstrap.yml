@@ -1,0 +1,15 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: leadnews-article
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.66.133:8848
+        file-extension: yml
+      discovery:
+        server-addr: 192.168.66.133:8848
+
+
