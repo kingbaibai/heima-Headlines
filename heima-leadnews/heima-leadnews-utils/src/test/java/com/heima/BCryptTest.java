@@ -14,7 +14,7 @@ public class BCryptTest {
         String salt = BCrypt.gensalt();
         System.out.println(salt);
         //加密
-        String pwd = BCrypt.hashpw("123456", salt);
+        String pwd = BCrypt.hashpw("admin", salt);
         System.out.println(pwd);
     }
 
